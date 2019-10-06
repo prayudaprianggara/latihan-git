@@ -1,0 +1,15 @@
+1. Konfigurasi Awal
+	-	Pastikan sudah membuat akun di github, setelah itu masuk ke git bash (hanya satu kali ketika masuk)
+		git config --global user.name "My Name" // username github
+		git config --global user.email myEmail@exampel.com // email github
+		
+2. Membuat repositori/gudang baru	
+	-	cd E:/latihan-git // masuk ke folder yang berisi file tugas yang akan di repositori ke akun github,contoh nama folder "latihan-git"
+	-	git remote add origin https://github.com/userName/Folder-proyek1.git
+	-	git push -u origin master
+	-	git init // masuk ke direktori dari proyek tersebut
+	- 	git status
+	-	git add . /git add namafile.html
+	-	git commit -m "Add FILE.txt" // memberi keterangan nama perubahan  Add FILE.txt
+	-	git push origin master
+	
